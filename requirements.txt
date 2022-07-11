@@ -1,0 +1,13 @@
+# local package
+-e .
+
+# external requirements
+numpy
+pandas
+plotly
+sklearn
+nltk
+keras
+tensorflow
+matplotlib
+
