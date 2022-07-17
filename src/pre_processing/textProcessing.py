@@ -34,7 +34,8 @@ class TextPreProcessor:
         # for token in gensim.utils.simple_preprocess(self.text):
         #     if len(token):
         #         result.append(token)
-        text = re.sub(r'[^\w\s]','',self.text)
+        text = re.sub(r'[^\w\s]','', self.text)
+        text = re.sub(r'\d+', '', self.text)
         result = word_tokenize(text.lower())
                 
         if self.lemma_flag:
