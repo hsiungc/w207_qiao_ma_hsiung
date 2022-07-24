@@ -10,3 +10,4 @@ nltk
 keras
 tensorflow
 matplotlib
+collections
