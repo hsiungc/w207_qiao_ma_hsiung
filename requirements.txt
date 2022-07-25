@@ -11,3 +11,5 @@ keras
 tensorflow
 matplotlib
 collections
+xgboost
+wordcloud
